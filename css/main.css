@@ -121,11 +121,54 @@ body {
   margin: 0 0 2px 0;
 }
 #willing {
-  padding: 2em 0;
+  padding: 2em 15px;
   text-align: center;
   min-height: 100%;
-  height: 100%;
+  background-color: #EEEADD;
 }
 #willing h1 {
   font-size: 4.5em;
+}
+#willing .interested-in {
+  min-width: 400px;
+  max-width: 1200px;
+  width: 70%;
+  margin: 10% auto 10% auto;
+}
+#willing .interested-in img {
+  width: 100%;
+}
+.interested-stuff {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.interested-stuff .wrapper {
+  min-height: 100%;
+  max-width: 1366px;
+  width: 100%;
+  padding: 30px 0;
+  margin: auto;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.interested-stuff .wrapper .side {
+  margin: auto 60px;
+}
+.interested-stuff .wrapper .side img {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+.interested-stuff .wrapper .side-literal {
+  width: 60%;
+}
+.interested-stuff .wrapper .side-decorate {
+  width: 40%;
+}
+.interested-stuff h3 {
+  font-size: 3.1em;
+}
+.interested-stuff p {
+  font-size: 24px;
 }
