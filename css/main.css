@@ -30,7 +30,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Segoe UI Light, Arial, san-serif;
+  font-family: Segoe UI Light, Calibri, Arial, san-serif;
   font-size: 13px;
 }
 @-webkit-keyframes bg-move {
