@@ -121,10 +121,9 @@ body {
   margin: 0 0 2px 0;
 }
 #willing {
-  padding: 2em 15px;
+  padding: 60px 15px;
   text-align: center;
   min-height: 100%;
-  background-color: #EEEADD;
 }
 #willing h1 {
   font-size: 4.5em;
@@ -133,7 +132,7 @@ body {
   min-width: 400px;
   max-width: 1200px;
   width: 70%;
-  margin: 10% auto 10% auto;
+  margin: 0 auto;
 }
 #willing .interested-in img {
   width: 100%;
