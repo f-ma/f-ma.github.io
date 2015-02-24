@@ -80,7 +80,7 @@ body {
 .huge-header {
   min-height: 100%;
   height: 100%;
-  background: url("/assets/crazy-sm.jpg") repeat;
+  background: url("../assets/crazy-sm.jpg") repeat;
   background-size: 1600px;
   -webkit-animation: bg-move 100s infinite;
   animation: bg-move 100s infinite;
@@ -120,21 +120,41 @@ body {
 .huge-header .wrapper .literal h4 {
   margin: 0 0 2px 0;
 }
-#willing {
+.tell-story {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: solid 8px white;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transition: background 0.4s ease-in-out, border 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+.tell-story h1 {
+  font-size: 6em;
+}
+.tell-story-active {
+  background-color: #D3CCAB;
+}
+.tell-story-deactive {
+  border-color: #D3CCAB;
+}
+.willing {
   padding: 60px 15px;
   text-align: center;
   min-height: 100%;
 }
-#willing h1 {
+.willing h1 {
   font-size: 4.5em;
 }
-#willing .interested-in {
+.willing .interested-in {
   min-width: 400px;
   max-width: 1200px;
   width: 70%;
   margin: 0 auto;
 }
-#willing .interested-in img {
+.willing .interested-in img {
   width: 100%;
 }
 .interested-stuff {
