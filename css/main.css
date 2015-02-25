@@ -156,7 +156,7 @@ body {
 }
 .fma-scrlr-scroller .fma-scrlr-init.willing .decoration {
   -webkit-transition: -webkit-transform 0.6s ease-in-out 0.2s, opacity 0.6s ease-in-out 0.2s;
-  transition: -webkit-transform 0.6s ease-in-out 0.2s, opacity 0.6s ease-in-out 0.2s;
+  transition: transform 0.6s ease-in-out 0.2s, opacity 0.6s ease-in-out 0.2s;
   -webkit-transform: translateX(-80px);
   transform: translateX(-80px);
   opacity: 0;
