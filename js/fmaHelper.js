@@ -42,10 +42,10 @@
       return el.classList.contains(c);
     };
     addClass = function(el, c) {
-      elem.classList.add(c);
+      el.classList.add(c);
     };
-    removeClass = function() {
-      elem.classList.remove(c);
+    removeClass = function(el, c) {
+      el.classList.remove(c);
     }
   } else {
     hasClass = function(el, c) {

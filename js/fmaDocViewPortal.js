@@ -16,7 +16,7 @@
     // declare default options
     defaults : {
 
-    }
+    },
 
     // get Viewport Height: the height of the browser window (the browser viewport, not including toolbars and scrollbar).
     getViewport : function() {
@@ -31,7 +31,7 @@
         height: h,
         width: w
       }
-    }
+    },
 
     /*
     * get the pixels the current document has been scrolled vertically
@@ -41,12 +41,12 @@
     getScrollInfo : function() {
       var
       s = window.pageYOffset || rootEl.scrollTop,
-      v = scrolled + this.getViewport().height;
+      v = s + this.getViewport().height;
       return {
         scrolled : s,
         viewed : v
       }
-    }
+    },
 
     /*
     * http://stackoverflow.com/a/5598797/989439
@@ -74,7 +74,7 @@
         left: offsetLeft,
         bottom: offsetTop + offsetHeight
       }
-    }
+    },
 
     /*
     * check if whether the "el" element being in the viewport
