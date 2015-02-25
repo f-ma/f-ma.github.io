@@ -224,12 +224,15 @@ body {
   border-color: #D3CCAB;
 }
 .willing {
-  padding: 60px 15px;
+  padding: 0 15px;
   text-align: center;
   min-height: 100%;
 }
 .willing h1 {
   font-size: 4.5em;
+}
+.willing h3 {
+  margin: 0;
 }
 .willing .interested-in {
   min-width: 400px;
@@ -237,8 +240,9 @@ body {
   width: 70%;
   margin: 0 auto;
 }
-.willing .interested-in img {
+.willing .interested-in .decoration {
   width: 100%;
+  margin: 30px 0 0 0;
 }
 .interested-stuff {
   min-height: 100%;

@@ -46,10 +46,14 @@
       * "i" : the element index
       */
       this.sections.forEach(function(el, i) { // go through each section, detect sections that are not being in viewport, if so, add class 'fma-scrlr-init' to these
+      /*! old version
         if (!docViewPortal.inViewport(el)) {
           fmaHelper.classie.add(el, 'fma-scrlr-init')
         }
+      */
+        fmaHelper.classie.add(el, 'fma-scrlr-init')
       });
+
 
       var
         scrollHandler = function() {  // declare scroll event handler
