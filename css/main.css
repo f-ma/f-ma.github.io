@@ -275,7 +275,16 @@ body {
 .interested-stuff .wrapper .side-literal {
   width: 60%;
 }
-.interested-stuff .wrapper .side-decorate {
+.interested-stuff .wrapper .side-decoration {
+  width: 40%;
+}
+.interested-stuff .wrapper .side-decoration.large {
+  width: 60%;
+}
+.interested-stuff .wrapper .side-decoration.large img {
+  width: 100%;
+}
+.interested-stuff .wrapper .side-literal.small {
   width: 40%;
 }
 .interested-stuff h3 {
