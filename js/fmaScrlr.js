@@ -28,7 +28,7 @@
       objectViewedPercentage : 0.2 // be used as argument of the "p" parameter of "inViewport" function
     },
     _init : function() {
-      if (Modernizr.touch) return; //disable this effect if the web is surfed by an touchable device
+      //if (Modernizr.touch) return; //disable this effect if the web is surfed by an touchable device
       /*
       * the slice() method returns a shallow copy of a portion of an array into a new array object.
       * the call() method calls a function with a given "this" value and arguments provided individually.
