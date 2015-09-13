@@ -1,0 +1,38 @@
+@keyframes SPINNING {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+    -moz-transform: rotateZ(-360deg);
+    -o-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+  }
+}
+
+.big-wing {
+  -webkit-transform-origin: 705px 300px;
+  -moz-transform-origin: 705px 300px;
+  -o-transform-origin: 705px 300px;
+  transform-origin: 705px 300px;
+  -webkit-animation: SPINNING 15s linear infinite;
+  -moz-animation: SPINNING 15s linear infinite;
+  -o-animation: SPINNING 15s linear infinite;
+  animation: SPINNING 15s linear infinite;
+}
+
+/*
+.small-wing {
+  -webkit-transform-origin: 798px 365px;
+  -moz-transform-origin: 798px 365px;
+  -o-transform-origin: 798px 365px;
+  transform-origin: 798px 365px;
+  -webkit-animation: SPINNING 60s linear infinite;
+  -moz-animation: SPINNING 60s linear infinite;
+  -o-animation: SPINNING 60s linear infinite;
+  animation: SPINNING 60s linear infinite;
+}
+*/
